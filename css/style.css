@@ -192,6 +192,9 @@ a:focus {
         color: #EF233C;
     }
 @media (min-width: 992px) {
+    .navbar-toggler-icon{
+        background-color: #EF233C !important;
+    }
     .navbar {
         position: absolute;
         width: 100%;
@@ -234,6 +237,9 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #EF233C;
+    }
+    .navbar-light .navbar-toggler{
+        background-color: #EF233C !important;
     }
 }
 
@@ -410,6 +416,11 @@ a:focus {
     .hero .hero-btn .btn {
         padding: 10px 15px;
         letter-spacing: 1px;
+    }
+    .audio-gg{
+        position: relative;
+        top: 20vh;
+        left: 40vw;
     }
 }
 
